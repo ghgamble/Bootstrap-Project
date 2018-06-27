@@ -8,3 +8,17 @@
 .btn-link:hover {
       color: rgba(255,255,255,0.5);
 }
+/* Nav Bar */
+.navbar {
+      background-color: #fff !important;
+      box-shadow: 0px 3px 4px -3px #ccc;
+}
+.navbar-light .navbar-nav .nav-link {
+      color: #343a40 !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+      color: rgba(52,58,64,0.5) !important;
+}
+.navbar-brand {
+      font-size: 1.5rem;
+}
