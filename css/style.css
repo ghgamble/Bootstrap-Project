@@ -100,9 +100,24 @@
 .services {
       background-color: #e9ecef;
 }
+/* Pricing Table */
+.pricing p {
+      margin: auto;
+      width: 100%;
+}
+.pricing .card-body {
+      padding: 1.25rem 0;
+}
+.pricing .list-group-item {
+      border: none;
+}
+#pricing #shadow {
+      box-shadow: 0 2px 6px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+      border: none;
+}
 /* Media Queries */
 @media (min-width: 992px) {
-      .features p {
+      .features p, .pricing p {
             width: 70%;
       }
 }
