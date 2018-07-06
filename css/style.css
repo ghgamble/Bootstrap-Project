@@ -77,15 +77,28 @@
       background: #007bff;
       width: 100%;
       transform: translate(-100%);
+      border-radius: .25rem;
 }
 .slide1:hover .overlay {
       transform: translateX(0);
+      border-radius: .25rem;
 }
 .slide1:hover img {
       transform: translateX(100%);
 }
 .slide1 .overlay, .slide1 img {
       transition: transform .7s ease-in-out;
+}
+/* Our Services */
+.services i {
+      color: white;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      margin-bottom: 30px;
+}
+.services {
+      background-color: #e9ecef;
 }
 /* Media Queries */
 @media (min-width: 992px) {
