@@ -159,9 +159,21 @@
       font-size: 1.25rem;
       text-decoration: none;
 }
+/* Latest Posts */
+#blog p {
+      margin: auto;
+      width: 100%;
+}
+#blog p.card-text {
+    width: 100%;
+    text-align: left;
+}
+#blog .card button.m-2 {
+    margin-left: 0 !important;
+}
 /* Media Queries */
 @media (min-width: 992px) {
-      .features p, .pricing p {
+      .features p, .pricing p, #blog p {
             width: 70%;
       }
 }
