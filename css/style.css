@@ -151,6 +151,14 @@
 .statistics h3, .statistics p {
       color: #fff;
 }
+/* FAQ */
+.frequently {
+      background-color: #e9ecef;
+}
+.frequently .btn-link {
+      font-size: 1.25rem;
+      text-decoration: none;
+}
 /* Media Queries */
 @media (min-width: 992px) {
       .features p, .pricing p {
