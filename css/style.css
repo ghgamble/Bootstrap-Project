@@ -175,6 +175,13 @@
 #contact {
       padding: 100px 0;
 }
+/* Footer */
+.footer-icon {
+      color: rgba(0,0,0,1);
+}
+.footer-icon:hover {
+      color: rgba(0,0,0,0.5);
+}
 /* Media Queries */
 @media (min-width: 992px) {
       .features p, .pricing p, #blog p {
