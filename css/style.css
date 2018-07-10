@@ -171,6 +171,10 @@
 #blog .card button.m-2 {
     margin-left: 0 !important;
 }
+/* Contact Us */
+#contact {
+      padding: 100px 0;
+}
 /* Media Queries */
 @media (min-width: 992px) {
       .features p, .pricing p, #blog p {
